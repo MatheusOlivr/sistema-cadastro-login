@@ -1,16 +1,44 @@
+#box-button-back
+{
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	color: white;
+	background-color: dodgerblue;
+	border-radius: 5px;
+	width: 50%;
+}
+#box-button-back:hover
+{
+	background-color: deepskyblue;
+}
 #box
 {
-
+	padding: 80px;
 }
-input,button
+#box-form
 {
-	padding: 15px;
-	border: none;
-	outline: none;
+	width: 18vw;
+	display: flex;
+	flex-direction: column;
+	gap: 18px;
+	align-items: center;
+}
+input
+{
+	padding: 18px 0;
+	width: 100%;
 	font-size: 15px;
-	margin-top: 5px;
 }
-button
+
+.box-inputSubmit
 {
-	border-radius: 10px;
+	background-color: dodgerblue;
+    border-radius: 10px;
+    color: white;
+}
+.box-inputSubmit:hover
+{
+    background-color: deepskyblue;
+    cursor: pointer;
 }

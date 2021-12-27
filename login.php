@@ -9,18 +9,14 @@
 	<link rel = "stylesheet" href = "css/login.css">
 </head>
 <body>
-	<a href = "index.php">Voltar</a>
 	<div id = "box">
-		<fieldset>
-			<legend>Login</legend>
-			<form action = "testLogin.php" method = "POST">
-				<input type = "text" name = "inputEmail" placeholder = "E-mail">
-				<br>
-				<input type = "password" name = "inputPassword" placeholder="Senha">
-				<br><br>
-				<button class = box-inputSubmit name = "inputSubmit">Fazer Login</button>
-			</form>
-		</fieldset>
+		<form id = "box-form" action = "testLogin.php" method = "POST">
+			<h1>Login:</h1>
+			<input type = "text" name = "inputEmail" placeholder = "E-mail">
+			<input type = "password" name = "inputPassword" placeholder="Senha">
+			<input type = "submit" class = box-inputSubmit name = "inputSubmit" value = "Fazer Login">
+			<a id = "box-button-back" href = "index.php">Voltar</a>
+		</form>
 	</div>
 </body>
 </html>
